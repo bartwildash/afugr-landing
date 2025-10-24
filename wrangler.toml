@@ -1,0 +1,9 @@
+name = "afugr-landing"
+pages_build_output_dir = "."
+compatibility_date = "2025-01-24"
+
+[env.production]
+routes = [
+  { pattern = "afugr.com", custom_domain = true },
+  { pattern = "www.afugr.com", custom_domain = true }
+]
